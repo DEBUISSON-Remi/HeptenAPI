@@ -22,16 +22,17 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-route::GET("categorie/{id?}",[CategorieController::class,'categorieAll']);
-
+route::get("categorie/{id?}",[CategorieController::class,'categorieAll']);
 route::get("devis/{id?}",[DevisController::class,'list']);
-
 route::get("clients/{id?}",[ClientsController::class,'ClientsAll']);
-
 route::get("trajet/{id?}",[TrajetController::class,'trajet']);
 
+
 route::post("devis/add",[DevisController::class,'add']);
+route::post("clients/add",[ClientsController::class,'add']);
 
 route::delete("devis/delete/{id}",[DevisController::class,'delete']);
+route::delete("clients/delete/{id}",[ClientsController::class,'delete']);
 
 route::put("devis/edit",[DevisController::class,'edit']);
+route::put("clients/edit",[ClientsController::class,'edit']);
