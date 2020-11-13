@@ -32,4 +32,6 @@ route::get("trajet/{id?}",[TrajetController::class,'trajet']);
 
 route::post("devis/add",[DevisController::class,'add']);
 
+route::delete("devis/delete/{id}",[DevisController::class,'delete']);
 
+route::put("devis/edit",[DevisController::class,'edit']);
