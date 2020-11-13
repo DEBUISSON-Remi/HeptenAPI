@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Categorie;
 use App\Models\Devis;
 use Illuminate\Http\Request;
+use function PHPUnit\Framework\returnArgument;
 
 class DevisController extends Controller
 {
@@ -28,6 +29,5 @@ class DevisController extends Controller
         else{
             return ["result "=> "fail"];
         }
-
     }
 }

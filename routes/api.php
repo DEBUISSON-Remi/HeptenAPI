@@ -2,6 +2,7 @@
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\DevisController;
 use App\Http\Controllers\ClientsController;
+use App\Http\Controllers\TrajetController;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -27,5 +28,8 @@ route::get("devis/{id?}",[DevisController::class,'list']);
 
 route::get("clients/{id?}",[ClientsController::class,'ClientsAll']);
 
+route::get("trajet/{id?}",[TrajetController::class,'trajet']);
+
 route::post("devis/add",[DevisController::class,'add']);
+
 
