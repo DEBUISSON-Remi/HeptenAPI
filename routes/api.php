@@ -30,9 +30,12 @@ route::get("trajet/{id?}",[TrajetController::class,'trajet']);
 
 route::post("devis/add",[DevisController::class,'add']);
 route::post("clients/add",[ClientsController::class,'add']);
+route::post("trajet/add",[TrajetController::class,'add']);
 
 route::delete("devis/delete/{id}",[DevisController::class,'delete']);
 route::delete("clients/delete/{id}",[ClientsController::class,'delete']);
+route::delete("trajet/delete/{id}",[TrajetController::class,'delete']);
 
 route::put("devis/edit",[DevisController::class,'edit']);
 route::put("clients/edit",[ClientsController::class,'edit']);
+route::put("trajet/edit",[TrajetController::class,'edit']);
