@@ -18,6 +18,7 @@ class ClientsController extends Controller
 
         $client = new Clients;
         $client->raisonSociale = $request->raisonSociale;
+        $client->CA = $request->CA;
         $res = $client->save();
         if ($res) {
             return ["result " => "success"];
@@ -39,6 +40,7 @@ class ClientsController extends Controller
     function edit(Request $req){
         $clients=Clients::find($req->id);
         $clients->raisonSociale = $req->raisonSociale;
+        $clients->CA = $req->CA;
         $res=$clients->save();
         if ($res) {
             return ["result " => "success"];

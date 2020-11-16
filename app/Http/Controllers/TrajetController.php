@@ -42,7 +42,6 @@ class TrajetController extends Controller
 
     function edit(Request $req){
         $trajet=Trajet::find($req->id);
-        $trajet = new Trajet;
         $trajet->devis_id = $req->devis_id;
         $trajet->vehicule_id = $req->vehicule_id;
         $trajet->conducteur_id = $req->conducteur_id;
