@@ -28,4 +28,4 @@ v1
 
 *Auteurs :
 Rémi DEBUISSON
-Quentin VRIGNEAU
+Quentin VRIGNAUD
