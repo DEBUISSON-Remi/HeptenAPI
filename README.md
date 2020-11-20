@@ -16,7 +16,9 @@ lancer votre navigateur et allez à l'adresse 'http://127.0.0.1:8000/'
     http://127.0.0.1:8000/clients, 
     http://127.0.0.1:8000/clients/xxx, 
     http://127.0.0.1:8000/trajet, 
-    http://127.0.0.1:8000/trajet/xxx.
+    http://127.0.0.1:8000/trajet/xxx,
+    http://127.0.0.1:8000/demande, 
+    http://127.0.0.1:8000/demande/xxx.
     
 -modifier, ajouter ou supprimer des données des tables en ajoutant 'add', 'edit' ou 'delete' a la fin des liens ci dessus.
 
