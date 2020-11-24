@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\demandeTransport;
+use App\Models\DemandeTransport;
 
 class DemandeTransportController extends Controller
 {

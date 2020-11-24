@@ -31,7 +31,7 @@ route::get("clients/{id?}",[ClientsController::class,'ClientsAll']);
 route::get("trajet/{id?}",[TrajetController::class,'trajet']);
 route::get("conducteurs/{id?}",[ConducteursController::class,'conducteurs']);
 route::get("vehicules/{id?}",[VehiculesController::class,'vehicules']);
-route::get("demande/{id?}",[DemandeTransportController::class,'demandeTransport']);
+route::get("demande/{id?}",[DemandeTransportController::class,'list']);
 
 route::post("devis/add",[DevisController::class,'add']);
 route::post("clients/add",[ClientsController::class,'add']);

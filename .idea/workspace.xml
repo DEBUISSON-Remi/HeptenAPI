@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7cd8245-7f67-4e23-aa6a-6ab8085f1ce6" name="Default Changelist" comment="update gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DemandeTransportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DemandeTransportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/demandeTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/DemandeTransport.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +196,8 @@
       <workItem from="1605790812611" duration="606000" />
       <workItem from="1605805565888" duration="93000" />
       <workItem from="1605869707875" duration="1079000" />
-      <workItem from="1605878933623" duration="689000" />
+      <workItem from="1605878933623" duration="1654000" />
+      <workItem from="1605881354711" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605198519768</created>
@@ -245,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605535709051</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="méthode GET, POST, PUT et DELETE pour la table demande_transports">
+      <created>1605879829682</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605879829682</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +281,8 @@
     <MESSAGE value="ajout, modification et suppression du contenu de la table Clients" />
     <MESSAGE value="README et PUT, DELETE et POST pour la table Trajet" />
     <MESSAGE value="finalisation des routes Vehicules et Conducteurs" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalisation des routes Vehicules et Conducteurs" />
+    <MESSAGE value="méthode GET, POST, PUT et DELETE pour la table demande_transports" />
+    <option name="LAST_COMMIT_MESSAGE" value="méthode GET, POST, PUT et DELETE pour la table demande_transports" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="376" width="601" height="361" key="#Notifications" timestamp="1605198905003">
@@ -318,10 +329,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605198849506" />
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605535928389">
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605879835755">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605535928389" />
+    <state x="591" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605879835755" />
     <state x="733" y="447" width="516" height="219" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605198929985">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
